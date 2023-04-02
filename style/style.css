@@ -4,6 +4,7 @@
   --textColor: #434455;
   --darkColor: #2e2f42;
   --pressedStateColor: #404bbf;
+  --accentColor: #e7e9fc;
 }
 
 body,
@@ -123,4 +124,28 @@ h3 {
 .team-item h3,
 .team-item p {
   text-align: center;
+}
+
+/* Portfolio page — Filters */
+.filters {
+  list-style: none;
+}
+
+.filters-item button {
+  background-color: var(--accentColor);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
+  color: var(--primaryBrandColor);
+  font-weight: 700;
+}
+.filters-item button:active,
+.filters-item button:hover {
+  background-color: var(--pressedStateColor);
+  color: #fff;
+}
+
+/* Portfolio */
+.portfolio {
+  list-style: none;
 }
