@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="This is a page">
+  <link href="style/style.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet" />
   <title>WebStudio - main page</title>
@@ -15,15 +16,15 @@
       <!-- Logo -->
       <a href="./index.html">WebStudio</a>
       <!-- Navigation -->
-      <ul>
-        <li><a href="">Studio</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Contacts</a></li>
+      <ul class="menu">
+        <li class="menu-item"><a href="">Studio</a></li>
+        <li class="menu-item"><a href="">Portfolio</a></li>
+        <li class="menu-item"><a href="">Contacts</a></li>
       </ul>
     </nav>
     <!-- Contacts -->
     <address>
-      <ul>
+      <ul class="contacts">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
@@ -34,13 +35,13 @@
     <!-- Section 1 - Hero -->
     <section>
       <h1>Effective Solutions for Your Business</h1>
-      <button type="button">Order Service</button>
+      <button type="button" class="button">Order Service</button>
     </section>
 
     <!-- Section 2 - Description -->
     <section>
       <h2>Features</h2>
-      <ul>
+      <ul class="features">
         <li>
           <h3>Strategy</h3>
           <p>
@@ -71,7 +72,7 @@
     <!-- Section 3 - Portfolio -->
     <section>
       <h2>What are we doing</h2>
-      <ul>
+      <ul class="main-portfolio">
         <li><img src="./images/img_1.jpg" alt="Website displayed on Apple monitor" width="360"></li>
         <li><img src="./images/img_2.jpg" alt="Mobile app design showcase" width="360"></li>
         <li><img src="./images/img_3.jpg" alt="Hand with smartphone" width="360"></li>
@@ -80,23 +81,23 @@
     <!-- Section 4 - Our Team -->
     <section>
       <h2>Our Team</h2>
-      <ul>
-        <li>
+      <ul class="team">
+        <li class="team-item">
           <img src="./images/team/01_mark_guerrero.jpg" alt="Mark Guerrero" width="264">
           <h3>Mark Guerrero</h3>
           <p>Product Designer</p>
         </li>
-        <li>
+        <li class="team-item">
           <img src="./images/team/02_tom_ford.jpg" alt="Tom Ford" width="264">
           <h3>Tom Ford</h3>
           <p>Frontend Developer</p>
         </li>
-        <li>
+        <li class="team-item">
           <img src="./images/team/03_camila_garcia.jpg" alt="Camila Garcia" width="264">
           <h3>Camila Garcia</h3>
           <p>Marketing</p>
         </li>
-        <li>
+        <li class="team-item">
           <img src="./images/team/04_daniel_wilson.jpg" alt="Daniel Wilson" width="264">
           <h3>Daniel Wilson</h3>
           <p>UI Designer</p>

@@ -1,0 +1,126 @@
+:root {
+  /* Colors */
+  --primaryBrandColor: #4d5ae5;
+  --textColor: #434455;
+  --darkColor: #2e2f42;
+  --pressedStateColor: #404bbf;
+}
+
+body,
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%; /* 24/16 */
+  letter-spacing: 0.02em;
+  color: var(--textColor);
+}
+
+a {
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* Contacts */
+.contacts {
+  list-style: none;
+  text-indent: 0;
+  padding: 0 0 0 0;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: var(--textColor);
+  font-style: normal;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  text-decoration: none;
+  color: var(--pressedStateColor);
+  font-style: normal;
+}
+
+/* Menu */
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--darkColor);
+}
+
+.menu-item a:hover,
+.menu-item a:focus {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--pressedStateColor);
+}
+
+.menu-item a:active {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--pressedStateColor);
+}
+
+/* Button - Main page */
+.button {
+  color: #fff;
+  font-weight: 500;
+  background-color: var(--primaryBrandColor);
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  left: 20px;
+  top: 20px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  color: #fff;
+  background-color: var(--pressedStateColor);
+}
+
+/* Features */
+.features {
+  list-style: none;
+  padding: 0;
+}
+
+/* Portfolio */
+.main-portfolio {
+  list-style: none;
+  padding: 0;
+}
+
+/* Team */
+.team {
+  list-style: none;
+  padding: 0;
+}
+
+.team-item h3,
+.team-item p {
+  text-align: center;
+}
