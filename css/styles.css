@@ -37,9 +37,34 @@ h3 {
   font-size: 20px;
 }
 
+/* Default styles */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Logo */
+a.logo {
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--primaryBrandColor);
+  line-height: 1.17em; /* 21/18 */
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-studio {
+  color: var(--darkColor);
+}
+
 /* Contacts */
 .contacts {
-  list-style: none;
   text-indent: 0;
   padding: 0 0 0 0;
 }
@@ -59,7 +84,6 @@ h3 {
 
 /* Menu */
 .menu {
-  list-style: none;
   padding: 0;
 }
 
@@ -105,7 +129,6 @@ h3 {
 
 /* Features */
 .features {
-  list-style: none;
   padding: 0;
 }
 
