@@ -109,20 +109,15 @@ a.logo {
   padding: 0;
 }
 
-.menu-item a {
+.menu-item {
   text-decoration: none;
   font-weight: 500;
   color: var(--darkColor);
 }
 
-.menu-item a:hover,
-.menu-item a:focus {
-  text-decoration: none;
-  font-weight: 500;
-  color: var(--pressedStateColor);
-}
-
-.menu-item a:active {
+.menu-item:hover,
+.menu-item:focus,
+.menu-item:active {
   text-decoration: none;
   font-weight: 500;
   color: var(--pressedStateColor);
