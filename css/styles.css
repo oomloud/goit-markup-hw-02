@@ -5,6 +5,7 @@
   --darkColor: #2e2f42;
   --pressedStateColor: #404bbf;
   --accentColor: #e7e9fc;
+  --lightBackgroundColor: #f4f4fd;
 }
 
 body,
@@ -37,7 +38,7 @@ h3 {
   font-size: 20px;
 }
 
-/* Default styles */
+/* Generic styles */
 
 .list {
   list-style: none;
@@ -45,6 +46,21 @@ h3 {
 
 .link {
   text-decoration: none;
+}
+
+.subheader {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  color: var(--darkColor);
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: var(--textColor);
 }
 
 /* Logo */
@@ -63,23 +79,29 @@ a.logo {
   color: var(--darkColor);
 }
 
+.logo-studio-dark {
+  columns: var(--lightBackgroundColor);
+}
+
 /* Contacts */
+.address {
+  font-style: normal;
+}
+
 .contacts {
   text-indent: 0;
   padding: 0 0 0 0;
 }
 
-.contacts a {
+.contact {
   text-decoration: none;
   color: var(--textColor);
-  font-style: normal;
 }
 
-.contacts a:hover,
-.contacts a:focus {
+.contact:hover,
+.contact:focus {
   text-decoration: none;
   color: var(--pressedStateColor);
-  font-style: normal;
 }
 
 /* Menu */
@@ -122,7 +144,7 @@ a.logo {
 /* Button - Main page */
 .button {
   font-family: 'Roboto', sans-serif;
-  font: size 16px;
+  font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.04em;
   color: #fff;
@@ -152,18 +174,41 @@ a.logo {
 
 .features-header {
   visibility: hidden;
+  letter-spacing: 0.02em;
+  color: var(--darkColor);
 }
 
-/* Portfolio */
-.main-portfolio {
-  list-style: none;
-  padding: 0;
+.feature {
+  font-size: 16px;
 }
 
-/* Team */
+/* Section 3 - Portfolio */
+.main-portfolio-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11em; /* 40/36 */
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--darkColor);
+}
+
+/* Section 4 - Team */
 .team {
-  list-style: none;
-  padding: 0;
+  background-color: var(--lightBackgroundColor);
+}
+
+.team-header {
+  line-height: 1.11em;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--darkColor);
+}
+
+.team-item {
+  background-color: #fff;
 }
 
 .team-item h3,
@@ -171,6 +216,11 @@ a.logo {
   text-align: center;
 }
 
+.footer {
+  background-color: var(--darkColor);
+}
+
+/*****************************/
 /* Portfolio page — Filters */
 .filters {
   list-style: none;
@@ -183,7 +233,9 @@ a.logo {
   padding: 12px 24px;
   color: var(--primaryBrandColor);
   font-weight: 700;
+  cursor: pointer;
 }
+
 .filters-item button:active,
 .filters-item button:hover {
   background-color: var(--pressedStateColor);
