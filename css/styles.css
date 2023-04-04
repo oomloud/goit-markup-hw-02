@@ -80,7 +80,11 @@ a.logo {
 }
 
 .logo-studio-dark {
-  columns: var(--lightBackgroundColor);
+  color: var(--lightBackgroundColor);
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 /* Contacts */
@@ -211,33 +215,36 @@ a.logo {
   text-align: center;
 }
 
+/* Footer */
 .footer {
   background-color: var(--darkColor);
 }
 
-/*****************************/
-/* Portfolio page — Filters */
-.filters {
-  list-style: none;
+.footer p {
+  color: var(--lightBackgroundColor);
 }
 
-.filters-item button {
-  background-color: var(--accentColor);
+/*****************************/
+/* Portfolio page — Filters */
+.filter-button {
+  background-color: var(--lightBackgroundColor);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
   color: var(--primaryBrandColor);
-  font-weight: 700;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
   cursor: pointer;
 }
 
-.filters-item button:active,
-.filters-item button:hover {
+.filter-button:active,
+.filter-button:hover {
   background-color: var(--pressedStateColor);
   color: #fff;
 }
 
 /* Portfolio */
-.portfolio {
-  list-style: none;
-}
