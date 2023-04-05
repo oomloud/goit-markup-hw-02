@@ -127,6 +127,7 @@ a.logo {
 }
 
 .hero-header {
+  font-size: 56px;
   color: var(--bodyColor);
   line-height: 1.07em; /* 60/56 */
   text-align: center;
