@@ -127,7 +127,7 @@ a.logo {
 }
 
 .hero-header {
-  color: #fff;
+  color: var(--bodyColor);
   line-height: 1.07em; /* 60/56 */
   text-align: center;
   letter-spacing: 0.02em;
@@ -139,7 +139,7 @@ a.logo {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: var(--bodyColor);
   font-weight: 500;
   background-color: var(--primaryBrandColor);
   padding: 16px 32px;
@@ -151,7 +151,7 @@ a.logo {
 
 .button:hover,
 .button:focus {
-  color: #fff;
+  color: var(--bodyColor);
   background-color: var(--pressedStateColor);
 }
 
@@ -196,7 +196,7 @@ a.logo {
 }
 
 .team-item {
-  background-color: #fff;
+  background-color: var(--bodyColor)
 }
 
 .team-item h3,
@@ -217,7 +217,7 @@ a.logo {
 /* Portfolio page — Filters */
 .filter-button {
   background-color: var(--lightBackgroundColor);
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accentColor);
   border-radius: 4px;
   padding: 12px 24px;
   font-family: 'Roboto', sans-serif;
@@ -235,7 +235,7 @@ a.logo {
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--pressedStateColor);
-  color: #fff;
+  color: var(--bodyColor);
 }
 
 /* Portfolio */
